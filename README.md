@@ -10,7 +10,7 @@
 
 ### 0. 总体流程图
 
-![image-20231129204616778](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231129204616778.png)
+![image-20231129204616778](https://github.com/LZH20001220/HuaweiCup2023/assets/65153649/645d5765-a709-4420-9e1f-407a35117bef)
 
 
 
@@ -43,7 +43,7 @@ simulator.Init 初始化仿真，simulator.RunAll 执行仿真，simulator.PlotA
 
 #### 1.4 仿真器工作原理图：
 
-![img](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)
+![ab080db57bd398b71697820b759c071](https://github.com/LZH20001220/HuaweiCup2023/assets/65153649/0935b348-43ac-46c4-97db-54418fb1ac72)
 
 ### 2. 理论计算：
 
