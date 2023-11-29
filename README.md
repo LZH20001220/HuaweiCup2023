@@ -86,4 +86,5 @@ q3_simu_bar.m、q4_simu_bar.m是在运行完simulator.m的基础上记录每组�
 
 ## 比赛结果
 
-一等奖(华为专项二等奖)              [成绩公示网址](https://cpipc.acge.org.cn//cw/detail/4/2c9080158aee323f018c0b4b1fdf71ff)
+一等奖(华为专项二等奖)             
+[成绩公示网址](https://cpipc.acge.org.cn//cw/detail/4/2c9080158aee323f018c0b4b1fdf71ff)
