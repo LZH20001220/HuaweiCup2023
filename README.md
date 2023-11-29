@@ -10,7 +10,7 @@
 
 ### 0. 总体流程图
 
-<img src="https://github.com/LZH20001220/HuaweiCup2023/assets/65153649/645d5765-a709-4420-9e1f-407a35117bef" width="300" height="200">
+<img src="https://github.com/LZH20001220/HuaweiCup2023/assets/65153649/645d5765-a709-4420-9e1f-407a35117bef" width="1000" height=auto>
 
 
 
