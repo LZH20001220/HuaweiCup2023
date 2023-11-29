@@ -18,19 +18,19 @@
 
 #### 1.1 仿真器说明
 
-本仿真程序是基于MATLAB R2021a 进行开发的，基于MATLAB 的面向对象编程工具，将每个AP 封装为了一个类，并采用元组传递拓扑关系。所有AP 通过一个Simulator类进行管理与交互，AP 将自己的行为抽象为事件，Simulator 将循环遍历所有AP 的事件，并按照时间顺序从前向后执行。
+本仿真程序是基于MATLAB R2021a 进行开发的，基于MATLAB 的面向对象编程工具，将每个 `AP` 封装为了一个类，并采用元组传递拓扑关系。所有 `AP` 通过一个 `Simulator` 类进行管理与交互， `AP` 将自己的行为抽象为事件， `Simulator` 将循环遍历所有AP 的事件，并按照时间顺序从前向后执行。
 
-本程序只需改动main.m 文件的参数配置，即可对不同场景进行仿真。
+本程序只需改动 `main.m` 文件的参数配置，即可对不同场景进行仿真。
 
 #### 1.2 主脚本运行说明
 
-主脚本为main.m 函数，问题一的运行示例如下代码所示。
+主脚本为 `main.m` 函数，问题一的运行示例如下代码所示。
 
-每个AP 类通过结构体simu_conf 进行构造，其中mbps, simulator, r, p_e 是必选参数，W_min, W_max 是可选参数。
+每个 `AP` 类通过结构体 `simu_conf` 进行构造，其中 `mbps, simulator, r, p_e` 是必选参数， `W_min, W_max` 是可选参数。
 
-构造完AP 后，将它们组成一个元组，同时传入参数topoAP2AP，topoAP2STA，这两个参数定义了网络的拓扑关系，该代码对应了问题一的场景。
+构造完 `AP` 后，将它们组成一个元组，同时传入参数 `topoAP2AP，topoAP2STA` ，这两个参数定义了网络的拓扑关系，该代码对应了问题一的场景。
 
-simulator.Init 初始化仿真，simulator.RunAll 执行仿真，simulator.PlotAllEvent 将绘制事件的时序图，simulator.PlotThroughput 将统计每个AP 的吞吐量、碰撞概率。
+ `simulator.Init` 初始化仿真， `simulator.RunAll` 执行仿真， `simulator.PlotAllEvent` 将绘制事件的时序图， `simulator.PlotThroughput` 将统计每个AP 的吞吐量、碰撞概率。
 
 #### 1.3 核心功能模块说明
 
