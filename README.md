@@ -41,10 +41,6 @@ simulator.Init 初始化仿真，simulator.RunAll 执行仿真，simulator.PlotA
 - **Simulator.m**:用于与各AP的事件与状态交互，实现整个仿真程序的运行。
 - **AP.m**:用于定义每个AP的行为逻辑和状态，与仿真器实现交互。
 
-#### 1.4 仿真器工作原理图：
-
-![ab080db57bd398b71697820b759c071](https://github.com/LZH20001220/HuaweiCup2023/assets/65153649/0935b348-43ac-46c4-97db-54418fb1ac72)
-
 ### 2. 理论计算：
 
 #### 2.1 代码说明：
